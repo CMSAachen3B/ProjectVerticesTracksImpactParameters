@@ -23,7 +23,7 @@ int main(int argc, char** argv)
 		mtTree.GetEntry(entry);
 		std::cout << "Processing entry " << entry << "..." << std::endl;
 		
-		std::cout << "\t(x,y,z) = (" << jet1.Pt() << ", " << retfitPVx << ", " << retfitPVy << ", " << retfitPVz << ")" << std::endl;
+		std::cout << "\t(x,y,z) = (" << retfitPVx << ", " << retfitPVy << ", " << retfitPVz << ")" << std::endl;
 	}
 	
 	return 0;
